@@ -24,13 +24,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                   DonemEntry.KOD + " INTEGER PRIMARY KEY, "+
                   DonemEntry.COLUMN_MKOD + " INTEGER, "+
                   DonemEntry.COLUMN_AD + " TEXT)";
-/*
-     public static final String TABLE_GRUP_CREATE=
-            " CREATE TABLE " + GrupEntry.TABLE_NAME + " ("+
-                    GrupEntry.KOD + " INTEGER PRIMARY KEY, "+
-                    GrupEntry.COLUMN_MKOD + " INTEGER, "+
-                    GrupEntry.COLUMN_AD + " TEXT)";
-*/
 
      public static final String TABLE_GRUP_CREATE=
              " CREATE TABLE " + GrupEntry.TABLE_NAME + " ("+
