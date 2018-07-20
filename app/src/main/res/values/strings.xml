@@ -1,3 +1,29 @@
 <resources>
     <string name="app_name">ASGEN</string>
+    <string-array name="mahsul">
+        <item>DOMATES</item>
+        <item>ANTEP FISTIĞI</item>
+        <item>PAMUK</item>
+        <item>MISIR</item>
+    </string-array>
+    <string-array name="donemListesi">
+        <item>Fideler toprağa şaşırtıldıktan sonra</item>
+        <item>Vejetatif gelişme dönemi</item>
+        <item>Çiçeklenme dönemi</item>
+        <item>İlk meyveler görülmeye başladığında</item>
+        <item>Meyveler ceviz büyüklüğünden sonra</item>
+        <item>Çiçeklenme öncesi</item>
+        <item>Çiçeklenme başladığında</item>
+        <item>Yaprak oluşumunu tamamladıktan sonra</item>
+        <item>İç dolum dönemi</item>
+        <item>Hasat sonrası yapraklar dökülmeden</item>
+        <item>3-5 Yaprak dönemi</item>
+        <item>4-6 Yaprak dönemi</item>
+        <item>Fide dönemi</item>
+        <item>Tarak dönemi</item>
+        <item>Koza dönemi</item>
+    </string-array>
 </resources>
+
+
+

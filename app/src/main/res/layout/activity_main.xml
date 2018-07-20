@@ -1,99 +1,35 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/btnTumMahsuller"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:onClick="tumMahsulleriGoster"
-        android:text="TÜM MAHSÜLLER" />
 
-    <TextView
-        android:id="@+id/tvTumMahsuller"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:text="TÜM MAHSÜLLER"
-        android:layout_below="@+id/btnYeniMahsul"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="73dp" />
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="0dp"
+        android:layout_height="36dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:entries="@array/mahsul"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/etSilinecekID"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/btnTumMahsuller"
-        android:layout_marginTop="10dp"
-        android:ems="10"
-        android:hint="Silinecek ID"
-        android:inputType="number" />
-
-    <Button
-        android:id="@+id/btnMahsulSil"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/btnTumMahsuller"
-        android:layout_marginLeft="30dp"
-        android:layout_marginStart="30dp"
-        android:layout_toEndOf="@+id/etSilinecekID"
-        android:layout_toRightOf="@+id/etSilinecekID"
-        android:onClick="MahsulSil"
-        android:text="Sil" />
-
-    <EditText
-        android:id="@+id/etGosterilecekID"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/etSilinecekID"
-        android:layout_marginTop="10dp"
-        android:ems="10"
-        android:hint="Gösterilecek ID"
-        android:inputType="number" />
-
-    <Button
-        android:id="@+id/btnGosterilecekMahsul"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/btnMahsulSil"
-        android:layout_marginLeft="30dp"
-        android:layout_marginStart="30dp"
-        android:layout_toEndOf="@+id/etGosterilecekID"
-        android:layout_toRightOf="@+id/etGosterilecekID"
-        android:onClick="MahsulGoster"
-        android:text="Bul" />
-
-    <EditText
-        android:id="@+id/etYeniMahsul"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/etGosterilecekID"
-        android:layout_marginTop="10dp"
-        android:ems="10"
-        android:hint="Yeni Mahsül Adı"
-        android:inputType="textPersonName" />
-
-    <Button
-        android:id="@+id/btnYeniMahsul"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/etYeniMahsul"
-        android:layout_below="@+id/btnGosterilecekMahsul"
-        android:layout_marginLeft="30dp"
-        android:layout_marginStart="30dp"
-        android:layout_toEndOf="@+id/etYeniMahsul"
-        android:layout_toRightOf="@+id/etYeniMahsul"
-        android:onClick="yeniMahsulEkle"
-        android:text="Ekle" />
-
-</RelativeLayout>
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="333dp"
+        android:layout_height="416dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:entries="@array/donemListesi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.604"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner" />
+</android.support.constraint.ConstraintLayout>

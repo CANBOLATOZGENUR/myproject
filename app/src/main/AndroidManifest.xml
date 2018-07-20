@@ -16,10 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <provider
-            android:authorities="ozgenurc.com.myproject.myprojectprovider"
             android:name=".data.myprojectProvider"
-            android:exported="false"></provider>
+            android:authorities="ozgenurc.com.myproject.myprojectprovider"
+            android:exported="false" />
+
+        <activity android:name=".DonemActivity"></activity>
     </application>
 
 </manifest>
