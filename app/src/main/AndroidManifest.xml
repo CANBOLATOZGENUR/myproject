@@ -22,7 +22,8 @@
             android:authorities="ozgenurc.com.myproject.myprojectprovider"
             android:exported="false" />
 
-        <activity android:name=".DonemActivity"></activity>
+        <activity android:name=".DonemActivity" />
+        <activity android:name=".UrunActivity"></activity>
     </application>
 
 </manifest>

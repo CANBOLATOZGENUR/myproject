@@ -8,7 +8,6 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.TextView;
 import android.widget.Toast;
 import ozgenurc.com.myproject.data.myprojectContract;
 
@@ -28,12 +27,10 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent intent = new Intent(MainActivity.this, DonemActivity.class);
                 String tiklanilanDonem = (String) donemListesi.getItemAtPosition(position);
-                intent.putExtra("donemIcerik", tiklanilanDonem);
+                intent.putExtra("ad", tiklanilanDonem);
                 startActivity(intent);
             }
         });
-
-
     }
     private void mahsulEkle(){
         ContentValues values=new ContentValues();

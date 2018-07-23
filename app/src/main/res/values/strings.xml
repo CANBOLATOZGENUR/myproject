@@ -23,6 +23,78 @@
         <item>Tarak dönemi</item>
         <item>Koza dönemi</item>
     </string-array>
+    <string-array name="urunListesi">
+        <item>ORGANİK MADDE</item>
+        <item>AZOTLU GÜBRE</item>
+        <item>DENİZ YOSUNU</item>
+        <item>AMINO ASIT</item>
+        <item>MAGNEZYUM</item>
+        <item>ORGANİK MADDE</item>
+        <item>DENGELİ</item>
+        <item>DENİZ YOSUNU</item>
+        <item>AMİNOASİT</item>
+        <item>İZELEMENT</item>
+        <item>MAGNEZYUM</item>
+        <item>FOSFOR</item>
+        <item>AZOTLU GÜBRE</item>
+        <item>DENİZ YOSUNU</item>
+        <item>AMİNOASİT</item>
+        <item>ÇİNKO</item>
+        <item>BOR</item>
+        <item>KALSİYUM</item>
+        <item>MAGNEZYUM</item>
+        <item>DENGELİ</item>
+        <item>AZOTLU GÜBRE</item>
+        <item>KALSİYUM</item>
+        <item>BOR</item>
+        <item>AMİNOASİT</item>
+        <item>POTASYUM</item>
+        <item>AMİNOASİT</item>
+        <item>FOSFOR</item>
+        <item>DENİZ YOSUNU</item>
+        <item>AMİNOASİT</item>
+        <item>BOR</item>
+        <item>ÇİNKO</item>
+        <item>FOSFOR</item>
+        <item>DENİZ YOSUNU</item>
+        <item>AMİNOASİT</item>
+        <item>KALSİYUM</item>
+        <item>DENGELİ GÜBRE</item>
+        <item>DENİZ YOSUNU</item>
+        <item>AMİNOASİT</item>
+        <item>KALSİYUM</item>
+        <item>MAGNEZYUM</item>
+        <item>POTASYUM</item>
+        <item>KALSİYUM</item>
+        <item>MAGNEZYUM</item>
+        <item>DENİZ YOSUNU</item>
+        <item>AMİNOASİT</item>
+        <item>İNKO</item>
+        <item>BOR</item>
+        <item>DENİZ YOSUNU</item>
+        <item>AMİNOASİT</item>
+        <item>RGANİK MADDE</item>
+        <item>SIVI AZOT</item>
+        <item>DENİZ YOSUNU</item>
+        <item>AMİNOASİT</item>
+        <item>İZELEMENT</item>
+        <item>FOSFOR</item>
+        <item>DENİZ YOSUNU</item>
+        <item>AMİNOASİT</item>
+        <item>İZELEMENT</item>
+        <item>ORGANİK MADDE</item>
+        <item>SIVI AZOT</item>
+        <item>DENİZ YOSUNU</item>
+        <item>SIVI ÇİNKO</item>
+        <item>FOSFOR</item>
+        <item>DENİZ YOSUNU</item>
+        <item>AMİNOASİT</item>
+        <item>İZELEMENT</item>
+        <item>POTASYUM</item>
+        <item>MAGENZYUM</item>
+        <item>DENİZ YOSUNU</item>
+        <item>AMİNOASİT</item>
+    </string-array>
 </resources>
 
 
